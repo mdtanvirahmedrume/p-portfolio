@@ -70,6 +70,18 @@ nav a {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+#contactBTN{
+  background-color: transparent;
+  color: #fd6e0a;
+  width: 160px;
+  height: 57px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 35px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #FD6E0A;
+}
 .banner {
   padding: 30px 30px 0px 150px;
   display: flex;
@@ -108,4 +120,11 @@ nav a {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
+}
+.aboutInfoContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.aboutInfo{
+  text-align: center;
 }
