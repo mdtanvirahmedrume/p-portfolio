@@ -129,6 +129,25 @@ nav a {
   text-align: center;
 }
 
+/* Skills Related Style */
+
 #what-i-do-description{
   padding: 50px 150px;
+}
+
+.skills-container{
+  width: 1140px;
+  height: 550px;
+  display: flex;
+  margin-top: -34px;
+  margin-left: 410px;
+  justify-content: space-between;
+}
+.skill{ 
+  align-items: center;
+  padding: 33px;
+  gap: 24px;
+}
+.skill-description{
+  padding: 0 41px 0 1px;
 }
